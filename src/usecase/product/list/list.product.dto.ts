@@ -1,7 +1,10 @@
 export type InputListProductDto = {}
 
-export type OutputListProductDto = {
+export type OutputProductDto = {
     id: string
     name: string
     price: number
-}[]
+}
+
+export type OutputListProductDto =
+    OutputProductDto[]

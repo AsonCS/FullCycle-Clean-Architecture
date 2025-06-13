@@ -1,0 +1,42 @@
+@baseUrl = http://localhost:3000
+
+###
+GET {{baseUrl}}/product
+
+###
+GET {{baseUrl}}/product
+Accept: application/xml
+
+###
+GET {{baseUrl}}/product/6f9f9602-8798-4f55-a495-d50ba478fa8a
+
+###
+GET {{baseUrl}}/product/3c73507e-3165-40d3-9b46-080e42575683
+Accept: application/xml
+
+###
+POST {{baseUrl}}/product
+Content-Type: application/json
+
+{
+    "name": "Chair",
+    "price": 100
+}
+
+###
+PUT {{baseUrl}}/product/a7a9ac53-a735-4483-8025-12814125995f
+Content-Type: application/json
+
+{
+    "name": "Table 2",
+    "price": 500
+}
+
+### Invalid request
+POST {{baseUrl}}/product
+Content-Type: application/json
+
+{
+    "name": "",
+    "price": -100
+}

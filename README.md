@@ -19,11 +19,26 @@
     -   [UpdateProductUseCase Integration Spec](/src/usecase/product/update/update.product.integration.spec.ts)
     -   [UpdateProductUseCase Unit Spec](/src/usecase/product/update/update.product.unit.spec.ts)
 
+## Endpoints Challenge
+
+-   [productRoute](/src/infrastructure/api/routes/product.route.ts)
+    -   GET [/product](http://localhost:3000/product)
+        -   Accept: application/json | application/xml
+    -   GET [/product/:id](http://localhost:3000/product/productId)
+        -   Accept: application/json | application/xml
+    -   POST [/product](http://localhost:3000/product)
+        -   Content-Type: application/json
+    -   PUT [/product/:id](http://localhost:3000/product/productId)
+        -   Content-Type: application/json
+-   [productRoute Spec](/src/infrastructure/api/__tests__/product.e2e.spec.ts)
+-   [productRoute Http](/src/infrastructure/api/__http__/product.http)
+-   [ProductPresenter](/src/infrastructure/api/presenters/product.presenter.ts)
+
 ## Notification Pattern Challenge
 
 -   [Product](/src/domain/product/entity/product.ts)
 -   [Product Spec](/src/domain/product/entity/product.spec.ts)
-    -   Test: "should throw it, name and price erros"
+    -   Test with 2 errors: "should throw it, name and price erros"
 
 ## Validation Challenge
 
