@@ -5,8 +5,16 @@
 </div>
 
 ## UseCases Challenge
-- [CreateProductUseCase](/src/usecase/product/create/create.product.usecase.ts)
-  - [CreateProductUseCase Unit Spec](/src/usecase/product/create/create.product.unit.spec.ts)
-- [ListProductUseCase](/src/usecase/product/list/list.product.usecase.ts)
-  - [CreateProductUseCase Integration Spec](/src/usecase/product/list/list.product.integration.spec.ts)
-  - [CreateProductUseCase Unit Spec](/src/usecase/product/list/list.product.unit.spec.ts)
+
+-   [CreateProductUseCase](/src/usecase/product/create/create.product.usecase.ts)
+    -   [CreateProductUseCase Integration Spec](/src/usecase/product/create/create.product.integration.spec.ts)
+    -   [CreateProductUseCase Unit Spec](/src/usecase/product/create/create.product.unit.spec.ts)
+-   [FindProductUseCase](/src/usecase/product/find/find.product.usecase.ts)
+    -   [FindProductUseCase Integration Spec](/src/usecase/product/find/find.product.integration.spec.ts)
+    -   [FindProductUseCase Unit Spec](/src/usecase/product/find/find.product.unit.spec.ts)
+-   [ListProductUseCase](/src/usecase/product/list/list.product.usecase.ts)
+    -   [CreateProductUseCase Integration Spec](/src/usecase/product/list/list.product.integration.spec.ts)
+    -   [CreateProductUseCase Unit Spec](/src/usecase/product/list/list.product.unit.spec.ts)
+-   [UpdateProductUseCase](/src/usecase/product/update/update.product.usecase.ts)
+    -   [UpdateProductUseCase Integration Spec](/src/usecase/product/update/update.product.integration.spec.ts)
+    -   [UpdateProductUseCase Unit Spec](/src/usecase/product/update/update.product.unit.spec.ts)
