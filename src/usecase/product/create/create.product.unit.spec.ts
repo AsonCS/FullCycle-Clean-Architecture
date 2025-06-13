@@ -23,11 +23,16 @@ describe('Unit test create product use case', () => {
                         'Method not implemented.'
                     )
                 },
-                create: (input) => {
-                    expect(input.name).toBe(
+                create: (inputDto) => {
+                    expect(
+                        inputDto.id
+                    ).toStrictEqual(
+                        expect.any(String)
+                    )
+                    expect(inputDto.name).toBe(
                         input.name
                     )
-                    expect(input.price).toBe(
+                    expect(inputDto.price).toBe(
                         input.price
                     )
                     return Promise.resolve()
@@ -64,11 +69,14 @@ describe('Unit test create product use case', () => {
                         'Method not implemented.'
                     )
                 },
-                create: () => {
-                    expect(input.name).toBe(
+                create: (inputDto) => {
+                    expect(inputDto.name).toBe(
+                        expect.any(String)
+                    )
+                    expect(inputDto.name).toBe(
                         input.name
                     )
-                    expect(input.price).toBe(
+                    expect(inputDto.price).toBe(
                         input.price
                     )
                     return Promise.resolve()
@@ -101,11 +109,14 @@ describe('Unit test create product use case', () => {
                         'Method not implemented.'
                     )
                 },
-                create: () => {
-                    expect(input.name).toBe(
+                create: (inputDto) => {
+                    expect(inputDto.name).toBe(
+                        expect.any(String)
+                    )
+                    expect(inputDto.name).toBe(
                         input.name
                     )
-                    expect(input.price).toBe(
+                    expect(inputDto.price).toBe(
                         input.price
                     )
                     return Promise.resolve()
