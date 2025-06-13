@@ -1,5 +1,5 @@
 import Entity from '../../@shared/entity/entity.abstract'
-import ProductValidatorFactory from '../factory/customer.validator.factory'
+import ProductValidatorFactory from '../factory/product.validator.factory'
 import ProductInterface from './product.interface'
 
 export default class Product

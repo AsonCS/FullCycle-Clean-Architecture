@@ -18,3 +18,18 @@
 -   [UpdateProductUseCase](/src/usecase/product/update/update.product.usecase.ts)
     -   [UpdateProductUseCase Integration Spec](/src/usecase/product/update/update.product.integration.spec.ts)
     -   [UpdateProductUseCase Unit Spec](/src/usecase/product/update/update.product.unit.spec.ts)
+
+## Notification Pattern Challenge
+
+-   [Product](/src/domain/product/entity/product.ts)
+-   [Product Spec](/src/domain/product/entity/product.spec.ts)
+    -   Test: "should throw it, name and price erros"
+
+## Validation Challenge
+
+-   [Product](/src/domain/product/entity/product.ts)
+-   [ProductYupValidator](/src/domain/product/validator/product.yup.validator.ts)
+-   [ProductValidatorFactory](/src/domain/product/factory/product.validator.factory.ts)
+-   Refactor
+    -   [Entity](/src/domain/@shared/entity/entity.abstract.ts)
+    -   [Customer](/src/domain/customer/entity/customer.ts)
